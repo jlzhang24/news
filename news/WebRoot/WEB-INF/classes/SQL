@@ -1,0 +1,101 @@
+---���񹫸�
+create table tb_jwxw
+(
+	jwxw_id int auto_increment,
+	jwxw_author varchar(20) null,
+	jwxw_date varchar(20),
+	jwxw_browercount int,
+	jwxw_title varchar(200),
+	jwxw_content longtext,
+	primary key (jwxw_id)
+);
+
+
+create table tb_jwgg
+(
+	jwgg_id int auto_increment,
+	jwgg_author varchar(20) null,
+	jwgg_date varchar(20),
+	jwgg_browercount int,
+	jwgg_title varchar(200),
+	jwgg_content longtext,
+	jwgg_attachment varchar(50),
+	primary key(jwgg_id)
+)charset utf8 collate utf8_general_ci;
+
+
+---����ָ��
+create table tb_guide
+(
+	guide_id int auto_increment,
+	guide_category varchar(20),
+	guide_date varchar(20),
+	guide_title varchar(200),
+	guide_content longtext,
+	guide_attachment varchar(50),
+	primary key(guide_id)
+)charset utf8 collate utf8_general_ci;
+
+
+---���񴦽���
+create table tb_jwcintro
+(
+	jwcintro_id int auto_increment,
+	jwcintro_name varchar(200),
+	jwcintro_title varchar(200),
+	jwcintro_content longtext,
+	primary key(jwcintro_id)
+)charset utf8 collate utf8_general_ci;
+
+
+---���ҽ���
+create table tb_deptintro
+(
+	deptintro_id int auto_increment,
+	deptintro_name varchar(200),
+	deptintro_title varchar(200),
+	deptintro_content longtext,
+	primary key(deptintro_id)
+)charset utf8 collate utf8_general_ci;
+
+
+CREATE TABLE `tb_form` (
+  `form_id` int(11) NOT NULL AUTO_INCREMENT,
+  `form_title` varchar(200) DEFAULT NULL,
+  `form_content` longtext,
+  `form_date` varchar(40) DEFAULT NULL,
+  `form_category` varchar(40) DEFAULT NULL,
+  `form_attachment` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`form_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+insert  into `tb_form`(`form_id`,`form_title`,`form_content`,`form_date`,`form_category`,`form_attachment`) values (2,'fdasfa','','2015-06-06','jxsj','8392.full.pdf'),(3,'表格测试2','<p>放大师傅</p>','2015-05-19','教务运行','业务数据问题.xlsx'),(4,'test2','<p>fdasfasd</p>','2015-05-21','sjjx','2010-2014级体育1成绩.xls');
+
+
+CREATE TABLE `tb_jwxx` (
+  `jwxx_id` int(11) NOT NULL AUTO_INCREMENT,
+  `jwxx_title` varchar(200) DEFAULT NULL,
+  `jwxx_author` varchar(10) DEFAULT NULL,
+  `jwxx_browercount` int DEFAULT NULL,
+  `jwxx_content` longtext,
+  `jwxx_date` varchar(40) DEFAULT NULL,
+  `jwxx_type` varchar(40) DEFAULT NULL,
+  `jwxx_attachment` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`jwxx_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+
+create table tb_type (
+	type_id int(11) not null auto_increment,
+	type_bh varchar(10) default null,
+	type_name varchar(10) default null,
+	primary key(type_id)
+)ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+create table tb_user (
+	user_id int(11) not null auto_increment,
+	user_name varchar(50) default null,
+	user_password varchar(50) default null,
+	user_level varchar(20) default null,
+	primary key(user_id)
+)ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+
+  <!-- 添加教务信息-->
+  <servlet>
+  	<servlet-name>InsertXXServlet</servlet-name>
+  	<servlet-class>com.zhang.servlet.InsertXXServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>InsertXXServlet</servlet-name>
+  	<url-pattern>/yiguadmin/Template/InsertXXServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 修改教务信息 -->
+  <servlet>
+  	<servlet-name>UpdateXXServlet</servlet-name>
+  	<servlet-class>com.zhang.servlet.UpdateXXServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UpdateXXServlet</servlet-name>
+  	<url-pattern>/yiguadmin/Template/UpdateXXServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- 添加类型信息-->
+  <servlet>
+  	<servlet-name>InsertTYPEServlet</servlet-name>
+  	<servlet-class>com.zhang.servlet.InsertTYPEServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>InsertTYPEServlet</servlet-name>
+  	<url-pattern>/yiguadmin/Template/InsertTYPEServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 修改类型信息 -->
+  <servlet>
+  	<servlet-name>UpdateTYPEServlet</servlet-name>
+  	<servlet-class>com.zhang.servlet.UpdateTYPEServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UpdateTYPEServlet</servlet-name>
+  	<url-pattern>/yiguadmin/Template/UpdateTYPEServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+   <!-- 验证管理员账号 -->
+  <servlet>
+  	<servlet-name>UserVerifyServlet</servlet-name>
+  	<servlet-class>com.zhang.servlet.UserVerifyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserVerifyServlet</servlet-name>
+  	<url-pattern>/yiguadmin/UserVerifyServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

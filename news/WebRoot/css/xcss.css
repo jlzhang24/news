@@ -1,0 +1,40 @@
+/* CSS Document */
+/*通用样式*/
+body{margin: 0px auto; padding:0; color:#0000; font-family: arial,Verdana,宋体; font-size:12px; line-height:1.8;}
+p{ margin:0px; padding:0px;}
+ul,li{list-style:none;padding:0px;  margin:0px;}
+a{ text-decoration:none;font-family:"微软雅黑";}
+a:hover {text-decoration:none;font-family:"微软雅黑";}
+input,select {font-size: 12px;verticasl-align: middle; margin:0px; padding:0px;}
+table{ border-collapse:collapse}
+img{ border:0}
+.clear{ clear:both;}
+
+
+/*子页面样式*/
+.z_content{ background:#f2f7f9; padding-top:20px;text-align: center;}
+
+.z_contentl{ float:left; width:270px; background:#ffffff;}
+.z_contentr{ width:662px; float:right; background:#ffffff; padding-bottom:115px; padding-left:10px; padding-right:10px;}
+.z_title{height:50px; line-height:50px; text-align:center;  background:#27b1ed;; font-size:22px; font-family:"微软雅黑";}
+.z_items{ padding:15px 15px 0px 15px;}
+.z_items li{ height:37px; line-height:37px; margin-bottom:13px; background:#e5eef1; text-align:center; }
+.z_items li a{color:#8e8e8e; font-size:18px; font-family:"微软雅黑";}
+.z_items .z_hover{background:#27b1ed;}
+.z_items .z_hover a{color:#fff; font-size:18px; font-family:"微软雅黑";}
+
+.zr_t{height:55px; line-height:55px; border-bottom:1px solid #e8e8e8;}
+.zr_t .zr_tname{float:left;}
+.zr_tname a{font-size:18px; font-weight:bold; color:#006c9a;}
+.zr_position{float:right; color:#666666; padding-left:15px; background:url(../imgs/home.png) left 25px no-repeat;}
+.zr_position a{ color:#006c9a;}
+
+.zr_c{ padding-top:15px; padding-left:10px;}
+.zr_lb li{ padding-bottom:15px; background:url(../imgs/xx.png) bottom repeat-x; margin-bottom:15px;}
+.z_ct{ float:left; width:151px;}
+.z_ctr{ float:left; width:650px;}
+.z_ctr .news_title a{ font-size:15px; font-family:"微软雅黑"; color:#000000;}
+.news_intro{ font-size:12px; color:#000000; line-height:20px; margin-top:10px;}
+.news_intro a{ color:#e39013;}
+
+

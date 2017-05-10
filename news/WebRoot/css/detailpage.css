@@ -1,0 +1,52 @@
+/*具体页面设置*/
+
+.content_news_detail {
+	width: 950px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rightnews_detail {
+	float: right;
+	margin-top: 30px;
+	width: 650px;
+	height: auto;
+}
+
+.rightnews_title_detail{
+	background-color:#f7f7f7;
+	height: 40px;
+	width:650px;
+}
+
+.rightnews_title_detail h3{
+	margin-top: 0;
+	padding-top: 0;
+	float:left;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.list_item {
+	width: 600px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.list_item li {
+	list-style-type: none;
+	padding-top: 20px;
+	padding-bottom:5px;
+	border-bottom: 1px dotted #000;
+}
+
+.list_item a{
+	text-decoration: none;
+	color:black;
+	font-family: 微软雅黑;
+}
+
+.list_item a:hover {
+	color:red;
+}

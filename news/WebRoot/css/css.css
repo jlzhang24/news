@@ -1,0 +1,433 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	background-color: #fff;
+}
+
+.content {
+	width: 1030px;
+	height: 500px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+
+.picture {
+	width: 1030px;
+	height: 280px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main {
+	width: 855px;
+	height: 500px;
+	float: none;
+	padding-top: 22px;
+	padding-right: 37px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.left {
+	width: 220px;
+	float: left;
+	overflow: hidden;
+}
+
+.box_1 {
+	margin-top: 0px;
+	margin-bottom: 28px;
+	border: solid 1px gray;
+}
+
+.box_daohang {
+	margin-top: 0px;
+	margin-bottom: 28px;
+}
+
+.left_title {
+	background-color: #2683A5;
+	font-family: "微软雅黑";
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	font-weight: bolder;
+	font-size: 14px;
+	text-align: left;
+}
+
+.left_title a {
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	float: left;
+}
+
+.left_title_site {
+	height: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #E1F1FE;
+}
+
+.left_title_site a {
+	text-decoration: none;
+	color: #387089;
+}
+
+.left_title_site a:hover {
+	color: red;
+}
+
+.daohang {
+	width: 160px;
+	margin-left: 30px;
+	float: left;
+	border-bottom: 1px dashed #C8C8C8;
+	padding-bottom: 5px;
+	font-size: 14px;
+	text-align: left;
+}
+
+.left_nr ul {
+	text-align: left;
+}
+
+.left_nr ul li {
+	padding-left: 0px;
+	height: 25px;
+	width: 220px;
+	line-height: 20px;
+	list-style-type: none;
+}
+
+.left_nr ul li a {
+	color: #777;
+	text-decoration: none;
+	font-size: 10px;
+	padding: 18px;
+}
+
+.left_nr table td {
+	border-left: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.left_nr table {
+	border-right: 1px solid gray;
+	border-top: 1px solid gray;
+	font-size: 15px;
+	font-family: monospace;
+}
+
+.left_nr select {
+	width: 219px;
+}
+
+.right {
+	float: left;
+	width: 500px;
+	margin-left: 40px
+}
+
+.rightnews {
+	float: left;
+	width: 600px;
+	margin-left: 40px
+}
+
+.righttoleft {
+	float: right;
+	width: 220px;
+	margin-right: 0px;
+}
+
+.right_top_img {
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+.news {
+	width: 500px;
+}
+
+.news_title {
+	border-bottom: dashed 1px #696863;
+	width: 500px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.news_title span {
+	float: left;
+	color: #2683A5;
+	font-weight: bold;
+}
+
+.news_title a {
+	float: right;
+	margin-top: 10px;
+}
+
+.news table a {
+	background: url(../images/bg_10.png) no-repeat 0 6px;
+	padding-left: 20px;
+	text-decoration: none;
+	padding-bottom: 5px;
+	font-size: 15px;
+	font-family: serif;
+	color: #777;
+	vertical-align: middle;
+}
+
+.news table a:hover {
+	background: url(../images/bg_9.png) no-repeat 0 6px;
+	color: #567fe6;
+}
+
+.news table td {
+	color: #777;
+}
+
+.huoban {
+	margin: 20px 0 15px 0;
+}
+
+.huoban_title {
+	background: url(../images/img_9.gif) no-repeat 6px 0;
+	padding-left: 35px;
+	height: 30px;
+}
+
+.huoban_nr {
+	background: #fff;
+	padding: 11px 0;
+	border-top: solid 1px #c6d0da;
+	border-bottom: solid 1px #c6d0da;
+}
+
+.huoban_nr li {
+	float: left;
+	margin-left: 24px;
+	display: inline;
+}
+
+.bottom {
+	background: url(../images/bg_8.gif) repeat-x;
+	text-align: center;
+	padding-top: 15px;
+	width: 917px;
+}
+
+.meun_2 {
+	height: 33px;
+	line-height: 33px;
+	color: #c4c4c4;
+	background: #808489 url(../images/img_10.gif) no-repeat 13px 15px;
+	padding-left: 33px;
+	width: 884px
+}
+
+.meun_2 a {
+	color: #fff;
+}
+
+.right_title {
+	padding-left: 0px;
+	height: 38px;
+	border-bottom: solid 1px #84888a;
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+
+.right_title img {
+	float: left;
+}
+
+.right_title div {
+	float: left;
+	color: #686868;
+}
+
+.right_title div span {
+	color: #01548d;
+}
+
+.liebiao ul {
+	padding: 10px 0;
+	border-bottom: solid 1px #84888a;
+	margin-bottom: 15px;
+}
+
+.liebiao li {
+	height: 24px;
+	line-height: 24px;
+	list-style-type: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.liebiao li a {
+	float: left;
+}
+
+.liebiao li span {
+	float: right;
+}
+
+.fanye_left {
+	float: left;
+	color: #01548e;
+}
+
+.fanye_right {
+	float: right;
+	color: #222;
+}
+
+.fanye_right a {
+	font-weight: bold;
+	margin: 0 4px;
+	display: inline;
+}
+
+.right_title b {
+	float: left;
+	font-size: 16px;
+	color: #01548e;
+}
+
+.xiangqingtitle {
+	line-height: 24px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.xiangqing_content {
+	line-height: 24px;
+	text-align: justify;
+}
+
+.laiyuan {
+	text-align: center;
+	color: #01548e;
+	padding: 20px 0;
+	font-size: 15px;
+}
+
+/*page*/
+.pagin {
+	position: relative;
+	margin-top: 10px;
+	padding: 0 12px;
+}
+
+.pagin .message {
+	margin-right: 200px;
+}
+
+.pagin .blue {
+	color: #056dae;
+	font-style: normal;
+}
+
+.pagin .paginList {
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+
+.pagin .paginList .paginItem {
+	float: left;
+	margin-right: 10px;
+	background: #f7f7f7;
+}
+
+.pagin .paginList .paginItem a {
+	float: left;
+	width: 60px;
+	height: 15px;
+	border: 1px solid #DDD;
+	text-align: center;
+	line-height: 15px;
+	border-left: none;
+	color: #3399d5;
+	font-weight: bold;
+}
+
+.pagin .paginList .paginItem:first-child a {
+	border-left: 1px solid #DDD;
+}
+
+.pagin .paginList .paginItem:first-child a {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.pagin .paginList .paginItem:last-child a {
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.pagin .paginList .paginItem.current,.pagin .paginList .paginItem.current a
+	{
+	background: #f5f5f5;
+	cursor: default;
+	color: #737373;
+}
+
+.pagin .paginList .paginItem:hover {
+	background: #f5f5f5;
+}
+
+.pagin .paginList .paginItem.more,.pagin .paginList .paginItem.more a:hover
+	{
+	cursor: default;
+}
+
+.pagin .paginList .paginItem.more:hover {
+	background: #FFF;
+}
+
+.pagin .paginList .paginItem.more a {
+	color: #737373;
+}
+
+.pagin .paginList li {
+	list-style-type: none;
+}
+
+.pagepre {
+	background: url(../images/pre.gif) no-repeat center center;
+	width: 31px;
+	height: 28px;
+}
+
+.pagenxt {
+	background: url(../images/next.gif) no-repeat center center;
+	width: 31px;
+	height: 28px;
+}
+
+#footer {
+	width: 100%;
+	height: 100px;
+	background-image: url("../images/footer.jpg");
+	text-align: center;
+	font-size: 15px;
+	float: left;
+	margin-top: 10px;
+}
+
+#footer p {
+	margin-top: 3px;
+	padding-top: 20px;
+	line-height: 5px;
+}

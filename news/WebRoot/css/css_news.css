@@ -1,0 +1,147 @@
+/*页面格式设置*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+	width: 1030px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content_news {
+	width: 950px;
+	height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.leftnews {
+	width: 270px;
+	height: 450px;
+	margin: 30px 0px 0px 0px;
+	float: left;
+}
+
+.leftnews h3{
+	background-color:#169fe6;
+	border:1px solid #169fe6;
+	color:#fff;
+	font-size:18px;
+	font-weight:normal;
+	padding:0px 0px 0px 20px;
+	margin: 0px;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+}
+.leftnews ul {
+	border:1px solid #dedede;
+	border-top:none;
+}
+
+.leftnews ul li{
+	line-height:2;
+	border-bottom:1px solid #e9e9e9;
+	padding:15px 10px 15px 20px;
+	font-size:16px;
+	color:#777;
+	list-style-type: none;
+	margin-left: 0px;
+}
+
+.leftnews ul li a{
+	color:#777;
+	text-decoration:none
+}
+
+.leftnews ul li a:HOVER{
+	color:#ff5e52;
+	border-bottom:1px dotted #ff5e52
+}
+
+.rightnews {
+	float: right;
+	margin-top: 30px;
+	width: 650px;
+	height: 500px;
+}
+
+.rightnews_title{
+	background-color:#f7f7f7;
+	height: 40px;
+	width:650px;
+}
+
+.rightnews_title h3{
+	margin-top: 0;
+	padding-top: 0;
+	float:left;
+	line-height: 40px;
+	font-size: 14px;
+}
+.newslist{
+	height:auto;
+	MARGIN-TOP: 15px;
+	margin-bottom: 30px;
+}
+
+.newslist ul li a{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	FONT-FAMILY: "宋体"; COLOR: #4b4b4b; FONT-SIZE: 14px;
+	float:left;
+}
+
+.newslist ul li{
+	LIST-STYLE-TYPE: none; OVERFLOW: hidden; LIST-STYLE-IMAGE: none
+	text-decoration: none;
+	LINE-HEIGHT: 35px; PADDING-LEFT: 10px; 
+	background: url(../images/bg_10.png) no-repeat 0 6px;
+	border-bottom: dashed 1px #84888a;
+	height:35px;
+}
+
+.newslist ul li span{
+	float:right;
+}
+
+.newslist ul li:hover{
+	background: url(../images/bg_9.png) no-repeat 0 6px;
+}
+
+.newslist ul li:hover a{
+	COLOR: #567fe6;
+	float:left;
+}
+
+.newslist ul li:hover span{
+	COLOR: #567fe6;
+	float:right;
+}
+
+.ldjs{
+	text-align: center;
+	float:left;
+}
+
+
+#footer {
+	width: 100%;
+	height: 100px;
+	background-image: url("../images/footer.jpg");
+	text-align: center;
+	font-size: 15px;
+	float: left;
+	margin-top: 10px;
+}
+
+#footer p {
+	margin-top: 3px;
+	padding-top: 20px;
+	line-height: 5px;
+}
